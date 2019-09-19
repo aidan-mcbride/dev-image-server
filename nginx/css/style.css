@@ -94,8 +94,8 @@ body {
   background-image: url('../background.jpg');
   background-position: center;
   background-size: cover;
-  background-color: rgba(240,241,242, .5);
-  background-blend-mode: lighten;
+  background-color: rgb(240,241,242);
+  background-blend-mode: luminosity;
 }
 
 body::before {
