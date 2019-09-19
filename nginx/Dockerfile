@@ -9,3 +9,6 @@ COPY nginx.conf /etc/nginx/conf.d/
 
 # copy index.html
 COPY index.html /usr/share/nginx/html/
+
+# copy images
+COPY images /usr/share/nginx/images/
